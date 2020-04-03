@@ -35,17 +35,19 @@ int main(void)
             p1->next = p2;
             p1 = p2;
         }
-        puts("\t****请选择每行前序号所对应的链表操作****");
+       
+        select(h);
+    return 0;
+}
+void select(DuLinkedList h)
+{       
+		puts("\t****请选择每行前序号所对应的链表操作****");
         puts("\t\t\t\t1.销毁链表并退出程序");
         puts("\t\t\t\t2.插入一个节点到链表指定节点前");
         puts("\t\t\t\t3.插入一个节点到链表指定节点后");
         puts("\t\t\t\t4.删除一个节点并输出节点数据");
         puts("\t\t\t\t5.遍历链表并输出链表数据");
-        select(h);
-    return 0;
-}
-void select(DuLinkedList h)
-{
+        
     char ch;
     ElemType a,*e;
     fflush(stdin);
@@ -78,7 +80,11 @@ void select(DuLinkedList h)
             TraverseList_DuL(h,pri);break;
         default :puts("请在正确的范围输入！");
     }
-     select(h);
+        puts("按任意键继续") ; 
+        fflush(stdin);
+        getchar(); 
+		system("cls"); 
+        select(h);
 
 }
 //自定义输入函数

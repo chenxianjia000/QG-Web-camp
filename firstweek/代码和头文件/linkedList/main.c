@@ -30,15 +30,7 @@ int main(void)
             p1->next = h;
             h = p1;
         }
-        puts("\t****请选择每行前相对应序号的选择链表操作****");
-        puts("\t\t\t\t1.销毁链表并退出程序");
-        puts("\t\t\t\t2.插入一个节点到链表");
-        puts("\t\t\t\t3.删除一个节点并输出节点数据");
-        puts("\t\t\t\t4.遍历链表并输出链表数据");
-        puts("\t\t\t\t5.查询链表是否包含某个数据");
-        puts("\t\t\t\t6.反转链表");
-        puts("\t\t\t\t7.判断链表是否出现循环");
-        puts("\t\t\t\t8.查找中间节点");
+        
 
         select(h);
 
@@ -47,6 +39,16 @@ int main(void)
 //选项调用
 void select(LinkedList h)
 {
+		puts("\t****请选择每行前相对应序号的选择链表操作****");
+        puts("\t\t\t\t1.销毁链表并退出程序");
+        puts("\t\t\t\t2.插入一个节点到链表");
+        puts("\t\t\t\t3.删除一个节点并输出节点数据");
+        puts("\t\t\t\t4.遍历链表并输出链表数据");
+        puts("\t\t\t\t5.查询链表是否包含某个数据");
+        puts("\t\t\t\t6.反转链表");
+        puts("\t\t\t\t7.判断链表是否出现循环");
+        puts("\t\t\t\t8.查找中间节点");
+        
     char ch;
     ElemType a,*e;
     LinkedList t;
@@ -91,6 +93,10 @@ void select(LinkedList h)
                 break;
             default :puts("请在正确的范围输入！");
         }
+        puts("按任意键继续") ; 
+        fflush(stdin);
+        getchar(); 
+		system("cls"); 
         select(h);
 }
 

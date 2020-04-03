@@ -39,7 +39,7 @@ void DestroyList(LinkedList *L) {
  *  @notice      : None
  */
 Status InsertList(LNode *p, LNode *q) {
-        if(!q) return ERROR;
+       if(!p) { puts("该节点不存在！"); return ERROR; }
         q->next = p->next;
         p->next = q;
         return SUCCESS;
@@ -54,7 +54,8 @@ Status InsertList(LNode *p, LNode *q) {
  *  @notice      : None
  */
 Status DeleteList(LNode *p, ElemType *e) {
-        if(!(p->next))return ERROR;
+        if (!p) {puts("指定节点不存在"); return ERROR; }
+        if (!(p->next)) { puts("该节点已是最后一个节点！"); return ERROR; }
         LNode *t = p->next;
         *e = t->data;
         p->next = t->next;
