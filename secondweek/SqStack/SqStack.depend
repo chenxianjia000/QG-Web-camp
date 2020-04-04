@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1585973202 source:c:\users\letsgo\desktop\sqstack\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SqStack.h"
+
+1585973976 source:c:\users\letsgo\desktop\sqstack\sqstack.c
+	"SqStack.h"
+	<stdio.h>
+	<stdlib.h>
+
+1585964911 c:\users\letsgo\desktop\sqstack\sqstack.h
+

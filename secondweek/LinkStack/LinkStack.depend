@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1585984978 source:c:\users\letsgo\desktop\linkstack\main.c
+	"LinkStack.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1585984650 c:\users\letsgo\desktop\linkstack\linkstack.h
+
+1585985719 source:c:\users\letsgo\desktop\linkstack\linkstack.c
+	"LinkStack.h"
+	<stdio.h>
+	<stdlib.h>
+
