@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title></title>
+	<link rel="stylesheet" href="loggin.css" type="text/css">
+</head>
+<body>
+    <button id="button1" onclick="document.getElementById('registerbox').style.display='block'">点击注册</button>
+ 
+    <button id="button2" onclick="document.getElementById('loginbox').style.display='block'">点击登录</button>
+
+
+	<div>
+	    <img src="logo.png" alt="" class="logo">
+		<div id="memu">
+				<a href="">首页</a>&nbsp;&nbsp;
+				<a href="">商城</a>&nbsp;&nbsp;
+				<a href="">社区</a>&nbsp;&nbsp;
+				<a href="">帮助</a>&nbsp;&nbsp;
+
+                <div class="search">
+                <input type="text" class="seek">
+		        <i class="iconfont icon-sousuo">&#xe61a;</i>
+		        </div>
+		</div>
+		
+	</div>
+
+	<div id="loginbox">
+		<h1>Login</h1>
+			<div class="form">
+				<div class="item">
+					<i class="iconfont iconuser">&#xe651;</i>
+					<input type="text" placeholder="Username">
+				</div>
+				<div class="item">
+					<i class="iconfont iconmima">&#xe657;</i>
+					<input type="Password" placeholder="Password">
+				</div>
+			</div>
+			<button>Login</button>
+	</div>		
+
+	<div id="registerbox">
+		<h1>register</h1>
+			<div class="form">
+				<div class="item">
+					<span class="text1">手机号</span>
+					<input type="text">
+				</div>
+				<div class="item">
+					<span class="text2">邮箱</span>
+					<input>
+				</div>
+				<div class="item">
+					<span class="text1">用户名</span>
+					<input>
+				</div>
+				<div class="item">
+					<span class="text3">设置密码</span>
+					<input type="Password">
+				</div>
+				<div class="item">
+					<span class="text3">确认密码</span>
+					<input type="Password">
+				</div>
+			</div>
+			<button>register</button>
+	</div>				
+ 
+</body></html>

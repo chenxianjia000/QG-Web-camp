@@ -1,10 +1,41 @@
 body{
-  background: url(background.jpg);
+ background-image: linear-gradient(to left, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
   background-size: 100% auto;
 }
 
 
-.memu {
+#button1{
+    position: absolute;
+    top: 20%;
+    left: 18%;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    border: 0;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+    outline: none;
+}
+
+#button2{
+    position: absolute;
+    top:20%;
+    right: 19%;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    border: 0;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+    outline: none;
+}
+
+
+#memu {
   display: inline-block;
   font-size: 20px;
   font-weight: 700;
@@ -21,7 +52,7 @@ a:hover{
   border-bottom: 3px solid #ffffff;
 }
 
-.memu input {
+#memu input {
   border-radius: 5px;
   border: none;
   height: 20px;
@@ -60,16 +91,16 @@ html:hover .logo{
 }
 
 #loginbox {
-	width: 420px;
+	width: 380px;
 	height: 220px;
-	margin: 0 auto;
+	margin: 0 60%;
 	margin-top: 15%;
 	text-align: center;
 	background: #00000050;
 	padding: 20px 50px;
   border-radius: 30px;
   position: relative;
-
+  display: none;
 }
 #loginbox h1 {
 	color: #ffffff;
@@ -117,7 +148,7 @@ html:hover .logo{
     font-weight: 600;
     position: absolute;
     top: 110px;
-    left: 125px;
+    left: 105px;
   }
 .iconmima{
      font-family:"iconfont";
@@ -130,7 +161,7 @@ html:hover .logo{
     font-weight: 600;
     position: absolute;
     top: 137px;
-    left: 120px;
+    left: 100px;
 }
 
 
@@ -149,7 +180,66 @@ html:hover .logo{
   font-size: 20px;
   padding: 0px;
   color: #ffffff;
- position: absolute;
- top: 6px;
- left: 160px;
+  position: absolute;
+  top: 6px;
+  left: 160px;
+}
+
+
+#registerbox {
+  width: 380px;
+  height: 320px;
+  text-align: center;
+  background: #00000050;
+  padding: 20px 50px;
+  border-radius: 30px;
+  position: absolute;
+  top: 28%;
+  left: 8%;
+  color: #fff;
+  display: none;
+}
+#registerbox h1 {
+  color: #ffffff;
+}
+#registerbox .form .item input {
+    font-size: 17px;
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    padding: 5px 10px;
+    background: #ffffff00;
+    color: #ffffff;
+    outline: none;
+}
+#registerbox .form .item{
+    position: relative;
+}
+.text1{
+    position: absolute;
+    top: 10px;
+    left: 27px;
+}
+
+.text2{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+.text3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#registerbox button {
+    margin-top: 15px;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    border: 0;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    outline: none;
 }
