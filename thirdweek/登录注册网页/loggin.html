@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title></title>
+	<link rel="stylesheet" href="loggin.css" type="text/css">
+
+</head>
+<body>
+ <img src="logo.png" alt="" class="logo">  
+	
+
+
+	<div id="loginbox">
+
+		<h1>Login</h1>
+
+		
+			<div class="form">
+				<div class="item">
+					<i class="iconfont iconuser">&#xe651;</i>
+					<input type="text" placeholder="Username" id="loginusername">
+				</div>
+				<div class="item">
+					<i class="iconfont iconmima">&#xe657;</i>
+					<input type="Password" placeholder="Password" id="loginpassword">
+				</div>
+			</div>
+			<input type="submit" value="Login" id="btn1">
+		
+		<a href="#" onclick="TurnToRegister()" class="ToRegister">Go to sign up</a>
+	</div>	
+
+
+	<div id="registerbox">
+		
+		<h1>Sigh up</h1>
+
+	
+			<div class="form">
+				<div class="item">
+					<span class="text1">Username</span>
+					<input id="username">
+				</div>
+				<div class="item">
+					<span class="text2">Password</span>
+					<input type="Password" id="password">
+				</div>
+				<div class="item">
+					<span class="text3">Phone</span>
+					<input id="phone">
+					<span keyup></span>
+				</div>
+				<div class="item">
+					<span class="text4">Email</span>
+					<input id="email">
+				</div>
+				<div class="item">
+					<span class="text5">Name</span>
+					<input id="name">
+				</div>
+			</div>
+			<input type="submit" value="Sigh up" id="btn2">
+
+		<a href="#" onclick="TurnToLogin()" class="ToLogin">Go to sigh up</a>
+
+	</div>		
+
+
+
+    <script src="js/1.js"></script>
+	<script src="js/checkform.js"></script>
+	<script src="js/ajax.js"></script>
+</body>
+</html>
