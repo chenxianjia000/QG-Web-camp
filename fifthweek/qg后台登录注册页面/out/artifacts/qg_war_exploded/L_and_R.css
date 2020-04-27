@@ -1,0 +1,164 @@
+body{
+    background:url(image/background.jpg);
+    background-size: 100% auto;
+}
+
+
+
+
+
+#loginbox {
+    width: 380px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+    background: #00000050;
+    padding: 20px 50px;
+    border-radius: 30px;
+    position: relative;
+    display: block;
+    box-shadow: 10px 10px 8px 0 #8A8888;
+}
+#loginbox h1 {
+    color: #ffffff;
+}
+#loginbox .form .item input {
+    font-size: 17px;
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    padding: 5px 10px;
+    background: #ffffff00;
+    color: #ffffff;
+    outline: none;
+}
+#btn1 {
+    margin-top: 15px;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    border: 0;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    outline: none;
+}
+
+.ToRegister{
+    position: absolute;
+    top: 230px;
+    left: 360px;
+    color: #9DADE5;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 1700571 */
+    src: url('http://at.alicdn.com/t/font_1700571_u410jyygv6e.eot');
+    src: url('http://at.alicdn.com/t/font_1700571_u410jyygv6e.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_1700571_u410jyygv6e.woff2') format('woff2'),
+    url('http://at.alicdn.com/t/font_1700571_u410jyygv6e.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_1700571_u410jyygv6e.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_1700571_u410jyygv6e.svg#iconfont') format('svg');
+}
+.iconuser{
+    font-family:"iconfont";
+    color: #ffffff;
+    font-size:23px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.3px;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 600;
+    position: absolute;
+    top: 110px;
+    left: 105px;
+}
+.iconmima{
+    font-family:"iconfont";
+    color: #ffffff;
+    font-size:30px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.3px;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 600;
+    position: absolute;
+    top: 137px;
+    left: 100px;
+}
+
+
+
+#registerbox {
+    width: 380px;
+    height: 270px;
+    text-align: center;
+    background: #00000050;
+    padding: 20px 50px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 12%;
+    color: #fff;
+    position: relative;
+    display: none;
+    box-shadow: 10px 10px 8px 0 #8A8888;
+}
+#registerbox h1 {
+    color: #ffffff;
+}
+
+#registerbox .item input {
+    font-size: 17px;
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    padding: 5px 10px;
+    background: #ffffff00;
+    color: #ffffff;
+    outline: none;
+}
+
+#registerbox .item input:focus {
+    width: 300px;
+}
+
+#registerbox .item input::-ms-input-placeholder {
+    text-align: center;
+}
+
+#registerbox .item   input::-webkit-input-placeholder {
+    text-align: center;
+}
+#registerbox .item{
+    position: relative;
+}
+
+#btn2 {
+    margin-top: 15px;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    border: 0;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    outline: none;
+}
+
+.ToLogin{
+    position: absolute;
+    top: 280px;
+    left: 360px;
+    color: #9DADE5;
+}
+
+
+#btn1:focus, #btn2:focus{
+
+    width: 250px;
+
+}
+
